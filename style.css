@@ -32,13 +32,17 @@ main {
   margin: 2rem 0;
 }
 
-h1,
-h4 {
+h1 {
   color: #000;
 }
 
 p {
   font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Navbar Section */
@@ -67,8 +71,6 @@ p {
 }
 
 .nav-links li a {
-  text-decoration: none;
-  cursor: pointer;
   color: var(--text-color);
 }
 
@@ -109,8 +111,6 @@ p {
   width: max-content;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
   background-color: var(--primary-color);
   color: #000;
   font-weight: 800;
@@ -145,8 +145,10 @@ p {
   border-bottom: none;
 }
 
-.new-article h3 {
+.new-article a {
   color: #fff9eb;
+  font-size: 1.2rem;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
@@ -182,6 +184,11 @@ p {
 .card-text h3 {
   color: var(--primary-color);
   font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.card-text a {
+  color: #000;
   font-weight: 800;
 }
 
