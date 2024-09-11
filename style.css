@@ -220,18 +220,36 @@ a {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 430px) {
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   body {
     margin: 1rem;
+    overscroll-behavior: auto;
   }
 
   main {
     flex-direction: column;
     margin: 0.8rem 0;
+    gap: 0;
   }
 
   .hero {
     width: 100%;
+  }
+
+  .hero-text {
+    margin-bottom: 2rem;
+  }
+
+  .hero-text h1 {
+    line-height: 2.7rem;
+    margin-bottom: 0.2rem;
   }
 
   .desktop-img {
@@ -254,5 +272,13 @@ a {
 
   .cards-container {
     flex-direction: column;
+  }
+
+  .card a {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 1rem;
   }
 }
