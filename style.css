@@ -122,7 +122,7 @@ a {
 
 .hero-description a:hover {
   background-color: #000;
-  color: #fff;
+  color: #fff9eb;
 }
 
 /* New Section */
@@ -223,7 +223,21 @@ a {
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .nav-links {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .toggle-btn {
+    display: block;
+    border: none;
+    cursor: pointer;
   }
 }
 
