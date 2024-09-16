@@ -4,7 +4,6 @@ const closeBtn = document.getElementById("close-btn");
 
 toggleBtn.addEventListener("click", () => {
   navLinks.classList.add("show");
-  //   alert("hello");
 });
 
 closeBtn.addEventListener("click", () => {
