@@ -10,13 +10,12 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://w-news-site.netlify.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- [Google Fonts](https://fonts.google.com/)
 
 ## Author
 
