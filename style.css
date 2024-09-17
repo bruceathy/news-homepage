@@ -58,6 +58,10 @@ a {
   user-select: none;
 }
 
+.nav-bg {
+  display: none;
+}
+
 .toggle-btn {
   display: none;
 }
@@ -244,7 +248,6 @@ a {
     height: 100vh;
     padding: 2rem;
     background-color: var(--secondary-color);
-    z-index: 1;
   }
 
   .show li a {
